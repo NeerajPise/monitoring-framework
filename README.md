@@ -1,6 +1,6 @@
-# monitoring-framework
+# Monitoring Framework
 
-# monitoring-frontend
+## monitoring-frontend
 
 Steps to run this repository -
 
@@ -16,7 +16,7 @@ Steps to obtain metrics -
 3. Run `lighthouse http://localhost:3000`. This will create an HTML file with the metrics dashboard.
 4. To obtain the react flamegraph metrics, follow this guide - https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 
-# monitoring-backend
+## monitoring-backend
 
 This is a client-side back-end monitoring application written in Python using the Flask framework. It utilizes the psutil library along with other metrics libraries to gather system data, and use HTTP GET requests to send them in the form of JSON response bodies.
 
